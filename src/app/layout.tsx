@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "FreelancifyAI — 3-Week Live Freelancing + AI Program",
+  title: "FreelancifyAI - 3-Week Live Freelancing + AI Program",
   description:
     "Learn to earn with AI through a 3-week live freelancing program focused on proposals, delivery, and dollar clients.",
 };
@@ -28,7 +28,7 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col bg-[#0a0a0a] text-white">
+      <body suppressHydrationWarning className="min-h-full flex flex-col bg-[#0a0a0a] text-white">
         {children}
       </body>
     </html>
