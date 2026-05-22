@@ -42,25 +42,25 @@ const curriculum = {
   week1: {
     heading: "Freelancing Foundations",
     classes: [
-      { number: "Class 1", title: "The Freelancing Reality Check", subtitle: "Kya Bechoge, Kisko Bechoge, Kahan Bechoge", detail: "Niche selection, market reality, client types" },
-      { number: "Class 2", title: "Upwork Profile That Gets You Hired", subtitle: "Zero Reviews Se First Client Tak", detail: "Profile build, portfolio from zero" },
-      { number: "Class 3", title: "Proposals That Win Jobs", subtitle: "150 Lafzon Mein Client Ko Convince Karo", detail: "5-line proposal framework, daily routine" },
+      { number: "Class 1", title: "The Freelancing Reality Check", subtitle: "What will you sell, to whom will you sell, and where will you sell", detail: "Niche selection, market reality, client types" },
+      { number: "Class 2", title: "Upwork Profile That Gets You Hired", subtitle: "From zero reviews to your first client", detail: "Profile build, portfolio from zero" },
+      { number: "Class 3", title: "Proposals That Win Jobs", subtitle: "Convince the client in 150 words", detail: "5-line proposal framework, daily routine" },
     ],
   },
   week2: {
     heading: "AI Tools & Delivery",
     classes: [
-      { number: "Class 4", title: "AI Fundamentals for Freelancers", subtitle: "ChatGPT Chalana AI Skill Nahi Hai", detail: "Prompting framework, Claude vs ChatGPT" },
-      { number: "Class 5", title: "Building With AI (Path-Specific)", subtitle: "2 Ghanton Mein Wo Kaam Karo Jo Pehle 2 Din Lagta Tha", detail: "Live tool mastery per path" },
-      { number: "Class 6", title: "Automation & Speed Stack", subtitle: "Clients Ko Lagay Ga Tum Team Ho", detail: "Make.com workflows, delivery speed" },
+      { number: "Class 4", title: "AI Fundamentals for Freelancers", subtitle: "Using ChatGPT is not an AI skill", detail: "Prompting framework, Claude vs ChatGPT" },
+      { number: "Class 5", title: "Building With AI (Path-Specific)", subtitle: "Do in 2 hours what used to take 2 days", detail: "Live tool mastery per path" },
+      { number: "Class 6", title: "Automation & Speed Stack", subtitle: "Clients will think you are a team", detail: "Make.com workflows, delivery speed" },
     ],
   },
   week3: {
     heading: "Scaling & Dollar Clients",
     classes: [
-      { number: "Class 7", title: "Closing Clients & Handling Money", subtitle: "Pehle Client Se $1,000 Client Tak", detail: "Sales calls, Payoneer, tax basics" },
-      { number: "Class 8", title: "Building Recurring Revenue", subtitle: "Ek Client Se Baar Baar Kamao", detail: "Retainer model, LinkedIn outreach" },
-      { number: "Class 9", title: "The Growth System", subtitle: "System Banao, Hustle Band Karo", detail: "90-day plan, pricing ladder, graduation" },
+      { number: "Class 7", title: "Closing Clients & Handling Money", subtitle: "From first client to $1,000 client", detail: "Sales calls, Payoneer, tax basics" },
+      { number: "Class 8", title: "Building Recurring Revenue", subtitle: "Earn again and again from one client", detail: "Retainer model, LinkedIn outreach" },
+      { number: "Class 9", title: "The Growth System", subtitle: "Build a system, stop the hustle", detail: "90-day plan, pricing ladder, graduation" },
     ],
   },
 } as const;
