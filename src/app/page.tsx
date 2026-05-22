@@ -149,7 +149,7 @@ export default function Home() {
       <section className="px-6 pb-4 pt-12 md:px-10 md:pb-6 md:pt-16">
         <div className="mx-auto flex max-w-[1120px] flex-col items-center text-center">
           <div className="mb-4 inline-flex rounded-full border border-white/10 bg-white/[0.04] px-5 py-2 text-sm font-medium text-white/64 backdrop-blur-sm">3-Week Live Program</div>
-          <h1 className="max-w-[53rem] text-balance text-[clamp(2.85rem,6.15vw,6rem)] font-extrabold leading-[1.13] tracking-[-0.07em] text-white">
+          <h1 className="max-w-[53rem] text-balance text-[clamp(2.85rem,6.15vw,6rem)] font-extrabold leading-[1.13] tracking-[-0.045em] text-white">
             Learn to Earn with AI - <span className="text-white/65">Dollar Clients, Rupee Effort</span>
           </h1>
           <p className="mt-5 max-w-[42rem] text-balance text-[1.125rem] leading-7 text-white/62 md:text-[1.44rem] md:leading-7">
