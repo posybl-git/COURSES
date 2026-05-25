@@ -290,28 +290,23 @@ export default function Home() {
       <section id="pricing" className="px-6 py-8 md:px-10 md:py-10">
         <div className="mx-auto max-w-[1240px]">
           <SectionHeading title="One Client Pays for This 10x Over" />
-          <div className="mt-6 grid gap-3 lg:grid-cols-2">
-            <article className="rounded-[2rem] border border-white/10 bg-[linear-gradient(180deg,rgba(255,255,255,0.08),rgba(255,255,255,0.03))] p-6 md:p-7">
+          <div className="mt-6 flex justify-center">
+            <article className="w-full max-w-4xl rounded-[2rem] border border-white/10 bg-[linear-gradient(180deg,rgba(255,255,255,0.08),rgba(255,255,255,0.03))] p-6 md:p-8">
               <div className="inline-flex rounded-full border border-white/10 bg-white/10 px-3 py-1 text-xs font-semibold uppercase tracking-[0.24em] text-white/62">Early Bird</div>
-              <div className="mt-5 text-4xl font-extrabold tracking-[-0.06em] text-white md:text-5xl">PKR 5,000</div>
+              <div className="mt-5 flex flex-wrap items-end gap-x-3 gap-y-1">
+                <span className="text-5xl font-semibold tracking-[-0.055em] text-white/42 line-through decoration-white/35 md:text-6xl">PKR 10,000</span>
+                <span className="flex items-center gap-3">
+                  <span className="text-4xl font-extrabold tracking-[-0.06em] text-white md:text-5xl">PKR 5,000</span>
+                  <span className="inline-flex rounded-full border border-white/10 bg-white/10 px-3 py-1 text-[0.65rem] font-semibold uppercase tracking-[0.22em] text-white/55">Early Bird Offer</span>
+                </span>
+              </div>
               <div className="mt-3 text-sm font-medium text-white/45">First 48 hours only</div>
               <div className="mt-4 grid gap-1.5">
                 {inclusions.map((item) => (
                   <div key={item} className="flex items-center gap-3 text-sm font-medium text-white/76"><CheckIcon /><span>{item}</span></div>
                 ))}
               </div>
-              <a href="#pricing" className="mt-5 inline-flex h-14 items-center justify-center rounded-full bg-white px-6 text-sm font-semibold text-black transition-transform hover:-translate-y-0.5 hover:bg-white/95 md:px-8 md:text-base">Claim Early Bird Spot</a>
-            </article>
-            <article className="rounded-[2rem] border border-white/10 bg-[linear-gradient(180deg,rgba(255,255,255,0.06),rgba(255,255,255,0.025))] p-6 md:p-7">
-              <div className="inline-flex rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs font-semibold uppercase tracking-[0.24em] text-white/46">Full Price</div>
-              <div className="mt-5 text-4xl font-extrabold tracking-[-0.06em] text-white md:text-5xl">PKR 10,000</div>
-              <div className="mt-3 text-sm font-medium text-white/45">After early bird closes</div>
-              <div className="mt-4 grid gap-1.5">
-                {inclusions.map((item) => (
-                  <div key={item} className="flex items-center gap-3 text-sm font-medium text-white/76"><CheckIcon /><span>{item}</span></div>
-                ))}
-              </div>
-              <a href="#pricing" className="mt-5 inline-flex h-14 items-center justify-center rounded-full border border-white/15 bg-white/[0.03] px-6 text-sm font-semibold text-white transition-transform hover:-translate-y-0.5 hover:bg-white/[0.06] md:px-8 md:text-base">Enroll at Full Price</a>
+              <a href="#pricing" className="mt-5 inline-flex h-16 items-center justify-center rounded-full bg-white px-8 text-base font-semibold text-black transition-transform hover:-translate-y-0.5 hover:bg-white/95 md:px-10 md:text-lg">Claim Early Bird Spot</a>
             </article>
           </div>
           <div className="mt-4 grid gap-1 text-center text-sm text-white/48 md:text-base">
